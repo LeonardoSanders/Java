@@ -20,5 +20,10 @@ public class DadosPrimitivos {
         char inicial = 'N';
         boolean ninja = true;
         Long saldoBancario = 99999L;
+
+        System.out.println(idade);
+        System.out.println(saldoBancario);
+        System.out.println("saldoBancario = " + saldoBancario);
+
     }
 }
