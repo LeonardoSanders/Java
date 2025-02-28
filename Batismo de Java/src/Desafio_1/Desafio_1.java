@@ -19,14 +19,13 @@ public class Desafio_1 {
         }
 
         System.out.println("Missão " + ninja1_stats_missao);
-
-
+        System.out.println("----------------------------------------------------------------------");
 //        Ninja 2
         String ninja2_nome = "Shikamaru Nara";
         int ninja2_idade = 14;
         String ninja2_missao = "Proteger comerciantes";
         char ninja2_dif_missao = 'D';
-        String ninja2_stats_missao;
+        String ninja2_stats_missao = "Não concluída";
 
         System.out.println("Ninja: " + ninja2_nome);
         System.out.println("Idade: " + ninja2_idade);
@@ -35,12 +34,10 @@ public class Desafio_1 {
 
         if (ninja2_idade >= 15 && (ninja2_dif_missao == 'C' || ninja2_dif_missao == 'D')) {
             ninja2_stats_missao = "Concluída";
-            System.out.println("Missão " + ninja2_stats_missao);
-        } else {
-            ninja2_stats_missao = "Não concluída";
-            System.out.println("Missão " + ninja2_stats_missao);
         }
 
+        System.out.println("Missão " + ninja2_stats_missao);
+        System.out.println("----------------------------------------------------------------------");
 //        Ninja 3
         String ninja3_nome = "Rock Lee";
         int ninja3_idade = 15;
