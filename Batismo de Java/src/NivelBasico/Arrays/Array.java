@@ -1,4 +1,4 @@
-package NivelBasico;
+package NivelBasico.Arrays;
 
 import java.util.Arrays;
 import java.util.Scanner;
