@@ -31,6 +31,17 @@ public class Main {
 
         Hinata.infoNinja();
         Hinata.byakuganAtivado();
+        System.out.println("-------------------------------");
+
+        Boruto Boruto = new Boruto();
+        Boruto.nome = "Boruto Hyuga Uzumaki";
+        Boruto.aldeia = "Aldeia da Folha";
+        Boruto.idade = 9;
+
+        Boruto.infoNinja();
+        Boruto.ativarJougan();
+        Boruto.ativarKarma();
+
     }
 
 }
