@@ -11,10 +11,6 @@ public class Ninja {
         System.out.println("Aldeia: " + aldeia);
     }
 
-    public  void SharinganAtivado() {
-        System.out.println("O Sharingan está ativado!");
-    }
-
     public String EusouNinja() {
         return "Oi, eu sou um Ninja!";
     }
