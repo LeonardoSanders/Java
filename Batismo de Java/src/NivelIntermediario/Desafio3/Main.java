@@ -1,4 +1,4 @@
-package NivelIntermediario.ClasseNinjas.Desafio3;
+package NivelIntermediario.Desafio3;
 
 import java.util.ArrayList;
 import java.util.Scanner;
