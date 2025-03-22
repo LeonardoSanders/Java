@@ -2,19 +2,26 @@ package NivelIntermediario.Polimorfismo;
 
 public class Main {
     public static void main(String[] args) {
-        Uzumaki Naruto = new Uzumaki();
-        Naruto.nome = "Naruto";
-        Naruto.idade = 18;
+        Uzumaki Naruto = new Uzumaki("Naruto", 18);
 
-        System.out.println("Ninja: " + Naruto.nome + "\nIdade: " + Naruto.idade);
+        Naruto.Info();
         Naruto.ativarJutsu();
         System.out.println("------------------------------");
 
-        Uchiha Sasuke = new Uchiha();
-        Sasuke.nome = "Sasuke";
-        Sasuke.idade = 18;
+        Uchiha Sasuke = new Uchiha("Sasuke", 18);
 
-        System.out.println("Ninja: " + Sasuke.nome + "\nIdade: " + Sasuke.idade);
+        Sasuke.Info();
         Sasuke.ativarJutsu();
+        Sasuke.sharingan();
+        System.out.println("------------------------------");
+
+        Hatake Kakashi = new Hatake("Kakashi", 35);
+        Kakashi.Info();
+        Kakashi.boasVindas();
+        Kakashi.sharingan();
+        Kakashi.ninjasDeElite();
+        System.out.println("------------------------------");
+
+        Uchiha madara = new Uchiha(35, "Madara", 10, Rank.JOUNNIN);
     }
 }
