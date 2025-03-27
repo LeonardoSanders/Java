@@ -23,5 +23,6 @@ public class Main {
         System.out.println("------------------------------");
 
         Uchiha madara = new Uchiha(35, "Madara", 10, Rank.JOUNNIN);
+        System.out.println(madara.toString());
     }
 }

@@ -28,4 +28,9 @@ public class Ninja {
     public void ativarJutsu() {
         System.out.println("Jutsu ativado!");
     }
+
+    @Override
+    public String toString() {
+        return "Meu nome é: " + nome;
+    }
 }
