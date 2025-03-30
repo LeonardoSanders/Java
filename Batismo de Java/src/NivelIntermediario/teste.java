@@ -2,7 +2,9 @@ package NivelIntermediario;
 
 public class teste {
     public static void main(String[] args) {
-        String str = "string" + 2;
-        System.out.println(str);
+        int [] array = {1, 2, 13, 40, 51};
+        for (int size : array) {
+            System.out.println(size);
+        }
     }
 }
