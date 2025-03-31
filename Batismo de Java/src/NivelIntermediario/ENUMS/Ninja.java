@@ -1,24 +1,25 @@
 package NivelIntermediario.ENUMS;
 
 public class Ninja {
-    private String nome;
+    private String missao;
     private RankMissoes rank;
 
     public void exibirDetalhes() {
-        System.out.println("Ninja: " + nome + "\nRank da Missão: " + rank);
+
+        System.out.println("Missão: " + missao + "\nRank da Missão: " + rank + " (Dificuldade: " + rank.getDificuldade() + " - Nível: " + rank.getNivel() + ")");
     }
 
     public Ninja(String nome, RankMissoes rank) {
-        this.nome = nome;
+        this.missao = nome;
         this.rank = rank;
     }
 
     public String getNome() {
-        return nome;
+        return missao;
     }
 
     public void setNome(String nome) {
-        this.nome = nome;
+        this.missao = nome;
     }
 
     public RankMissoes getRank() {
@@ -29,3 +30,4 @@ public class Ninja {
         this.rank = rank;
     }
 }
+
