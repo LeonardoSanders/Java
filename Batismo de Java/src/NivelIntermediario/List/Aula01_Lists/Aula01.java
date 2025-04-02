@@ -1,4 +1,4 @@
-package NivelIntermediario.List;
+package NivelIntermediario.List.Aula01_Lists;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -20,7 +20,7 @@ public class Aula01 {
         ninjasList.add("Sasuke Uchiha");
         ninjasList.add("Sakura Haruno");
         ninjasList.add("Tobirama Senju");
-        System.out.println(ninjasList);
+        ninjasList.forEach(System.out::println);
 
 //        Remover da Lista
         ninjasList.remove("Tobirama Senju");

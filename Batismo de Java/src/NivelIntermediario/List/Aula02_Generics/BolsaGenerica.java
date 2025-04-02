@@ -10,7 +10,7 @@ public class BolsaGenerica<T> {
         this.equipamentos = new ArrayList<>();
     }
 
-//    Colocar equipamentos genericos
+    //    Colocar equipamentos genericos
     public void adicionarEquipamentos(T equipamento) {
         equipamentos.add(equipamento);
     }
